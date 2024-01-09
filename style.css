@@ -61,6 +61,20 @@ button.normal {
     height: 100px;
 } */
 
+button.white {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 /* Header Start */
 #header{
     display: flex;
@@ -184,13 +198,15 @@ button.normal {
 #feature .fe-box {
     /* display: flex; */
     /* flex-direction: column; */
-    width: 180ox;
+    width: 210px;
     text-align: center;
     padding: 25px 15px;
     box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
     border: 1px solid #cce7de;
     border-radius: 4px;
     margin: 15px 0;
+    position: relative;
+    background-size: cover;
 }
 /* #banner {
     display: flex;
@@ -411,21 +427,25 @@ span {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("img/banner/b2.jpg");
+  background-image: url("img/banner/b17.jpg");
   width: 100%;
   height: 48vh;
   background-size: cover;
   background-position: center;
+
+  /* background-image: none; */
 }
 #banner2 h4 {
-    color: #cce7de;
+    color: #033927;
     font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 10px;
 }
 
 #banner2 h2 {
-    color: #fddde4;
+    color: #160508;
     font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 10px 0;
 }
 #banner2 h2 span {
@@ -440,4 +460,137 @@ span {
 #banner2 button:hover {
     background-color: #088178;
     color: #E3E6F3;
+}
+
+/* .banner-box2{
+    background-image: none;
+} */
+
+/* .banner-box {
+    background-image: none;
+    background-image: url("./img/banner/b17.jpg");
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+} */
+/* button.normal {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 30px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+/* #sm-banner .section-p1 */
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* text-align: center; */
+    background-image: url("img/banner/b17.jpg");
+    min-width: 660px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+#sm-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+#sm-banner h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 500px;
+}
+#sm-banner h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: 400;
+}
+#sm-banner span {
+    font-family: serif;
+    font-weight: 600;
+
+}
+#sm-banner button {
+    font-size: medium;
+    font-style: normal;
+    background-color: #cce7de;
+}
+#sm-banner .banner-box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* text-align: center; */
+    background-image: url("img/banner/b10.jpg");
+    min-width: 660px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+ .banner-box1 h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: 800px;
+    color: aliceblue;
+ }
+ .banner-box1 h4 {
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: large;
+ font-weight: 400;
+ color: #cce7de;
+}
+#sm-banner .banner-box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* text-align: center; */
+    background-image: url("img/banner/b7.jpg");
+    min-width: 300px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+#sm-banner .banner-box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* text-align: center; */
+    background-image: url("img/banner/b4.jpg");
+    min-width: 300px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#sm-banner .banner-box4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    /* text-align: center; */
+    background-image: url("img/banner/b18.jpg");
+    min-width: 400px;
+    height: 45vh;
+    /* width: 40px;
+    height: 60px; */
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
 }
